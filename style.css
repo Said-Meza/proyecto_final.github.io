@@ -5,8 +5,57 @@
 }
 
 body{
+    font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(243, 234, 151);
 }
+
+.header{
+    height: 80px;
+    background-color:rgba(95, 255, 2, 0.658) ;
+}
+
+.header_nav{
+    /* outline: auto; */
+    height: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header_title{
+    /* outline: auto; */
+    color: rgb(122, 0, 0);
+}
+.header_links{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.header_links_link{
+    list-style: none;
+}
+
+.link_a{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: rgb(47, 59, 0);
+    text-decoration: none;
+}
+.link_a:hover{
+    color: rgb(243, 119, 119);
+}
+.link_a_color{
+    border-radius: 15px;
+    padding: .7rem;
+    background-color: rgb(255, 76, 6);
+}
+.link_a_color:hover{
+  
+    background-color: rgb(112, 111, 110);
+}
+
 
 
 
