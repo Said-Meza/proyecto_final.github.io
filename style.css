@@ -116,7 +116,9 @@ body{
 
 
 .main_seccion2{
-    outline: auto;
+    background-color: rgb(26, 240, 62);
+    
+    border-radius: 15px;
     width: 20%;
     padding: 1rem;
     
@@ -138,6 +140,81 @@ body{
     font-size: 1.5rem;
     text-transform: uppercase;
 }
+
+.footer{
+    margin-top: 2rem;
+    background-color:rgba(95, 255, 2, 0.658) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_title{
+    padding: 1rem;
+}
+
+.footer_fieldset{
+    border: 1px solid red;
+    border-radius: 15px;
+    padding: 1rem;
+    width: 60%;
+}
+
+.footer_form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+.footer_label{
+    color: blue;
+}
+.footer_input{
+    background-color: rgb(73, 138, 0);
+    color: aqua;
+    border: none;
+    border-radius: 5px;
+    height: 2.5rem;
+    width: 400px;
+}
+.footer_btn{
+    color: rgb(255, 255, 255);
+    background-color: rebeccapurple;
+    height: 2rem;
+    width: 70px;
+    border: none;
+    border-radius: 15px;
+
+}
+.footer_btn:hover{
+    color: rgb(49, 0, 163);
+    background-color: rgb(247, 242, 252);
+    height: 2rem;
+ 
+}
+.footer_seccion2{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.footer_copyrigh{
+    
+    width: 100%;
+    background-color: blue;
+    color: aqua;
+    text-align: center;
+
+}
+
+
 
 
 
