@@ -113,6 +113,10 @@ body{
     border: none;
     font-size: 1.3rem;
 }
+.card_btn:hover{
+    background-color:rgb(255, 0, 43) ;
+    color: rgb(1, 240, 60);
+}
 
 
 .main_seccion2{
@@ -139,6 +143,10 @@ body{
     color: brown;
     font-size: 1.5rem;
     text-transform: uppercase;
+}
+.item_a:hover{
+    color: rgb(38, 7, 212);
+    
 }
 
 .footer{
