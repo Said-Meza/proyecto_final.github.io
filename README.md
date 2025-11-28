@@ -19,7 +19,7 @@ BakAnime es una página web estática que muestra estrenos de anime, un ranking 
 
 ## adicionalmente puedes abrir la pagina en el siguiente enlace
 
-
+https://said-meza.github.io/proyecto_final.github.io/
 
 
 

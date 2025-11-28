@@ -172,6 +172,7 @@ body{
 }
 .footer_label{
     color: blue;
+    font-size: 1.5rem;
 }
 .footer_input{
     background-color: rgb(73, 138, 0);
@@ -203,6 +204,14 @@ body{
     justify-content: center;
     align-items: center;
     gap: 2rem;
+}
+.social_media{
+    display: flex;
+    gap: 2rem;
+    padding-bottom: 2rem;
+}
+.social_list{
+    list-style: none;
 }
 
 .footer_copyrigh{
